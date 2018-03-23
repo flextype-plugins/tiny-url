@@ -11,7 +11,7 @@ Tiny Url plugin takes a long url and uses the TinyURL API to return a shortened 
 3. Save your changes.
 
 Example:
-```
+```yaml
 ...
 plugins:
   - tiny-url
@@ -19,19 +19,19 @@ plugins:
 
 ## Usage in page content
 
-```
+```yaml
 [tinyurl url="http://flextype.org"]
 ```
 
 ## Usage in template
 
-```
+```php
 <?php echo Flextype\tinyurl('http://flextype.org'); ?>
 ```
 
 ## Settings
 
-```
+```yaml
 enabled: true # or `false` to disable the plugin
 ```
 
