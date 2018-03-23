@@ -31,9 +31,9 @@ plugins:
 
 ## Settings
 
-| name  | value | description |
-|---|---|---|
-| enabled | true | or `false` to disable the plugin |
+```
+enabled: true # or `false` to disable the plugin
+```
 
 ## License
 See [LICENSE](https://github.com/flextype-plugins/tinyurl/blob/master/LICENSE)
