@@ -19,7 +19,7 @@ plugins:
 
 ## Usage in page content
 
-```yaml
+```
 [tinyurl url="http://flextype.org"]
 ```
 
