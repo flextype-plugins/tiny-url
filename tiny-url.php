@@ -18,8 +18,10 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 //
 // Shortcode: [tinyurl url="http://flextype.org"]
 //
-Shortcodes::driver()->addHandler('tinyurl', function(ShortcodeInterface $s) {
-      return tinyurl($s->getParameter('url'));
+Event::addListener('onShortcodesInitialized', function () {
+    Content::shortcode()->addHandler('tinyurl', function(ShortcodeInterface $s) {
+        return tinyurl($s->getParameter('url'));
+    });
 });
 
 /**

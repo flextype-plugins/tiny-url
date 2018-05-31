@@ -1,5 +1,5 @@
 name: Tiny Url
-version: 1.0.0
+version: 1.2.0
 description: "Tiny Url plugin takes a long url and uses the TinyURL API to return a shortened version."
 author:
   name: Sergey Romanenko
