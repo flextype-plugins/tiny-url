@@ -1,20 +1,12 @@
 # Tiny Url Plugin for [Flextype](http://flextype.org/)
-![version](https://img.shields.io/badge/version-1.2.0-brightgreen.svg?style=flat-square)
-![Flextype](https://img.shields.io/badge/Flextype-0.x-green.svg?style=flat-square)
+![version](https://img.shields.io/badge/version-1.2.1-brightgreen.svg?style=flat-square)
+![Flextype](https://img.shields.io/badge/Flextype-0.7.x-green.svg?style=flat-square)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 Tiny Url plugin takes a long url and uses the TinyURL API to return a shortened version.
 
 ## Installation
-1. Unzip plugin to the folder `/site/plugins/`
-2. Go to `/site/config/site.yaml` and add plugin name to plugins section.
-3. Save your changes.
-
-Example:
-```yaml
-plugins:
-  - tiny-url
-```
+Unzip plugin to the folder `/site/plugins/`
 
 ## Usage in page content
 

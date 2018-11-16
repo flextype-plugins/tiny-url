@@ -2,7 +2,7 @@
 
 /**
  *
- * Fansoro Tiny Url Plugin
+ * Flextype Tiny Url Plugin
  *
  * @author Romanenko Sergey / Awilum <awilum@yandex.ru>
  * @link http://flextype.org
@@ -14,6 +14,7 @@
 namespace Flextype;
 
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
+use Flextype\Component\Event\Event;
 
 //
 // Shortcode: [tinyurl url="http://flextype.org"]

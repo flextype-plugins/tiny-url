@@ -1,5 +1,5 @@
 name: Tiny Url
-version: 1.2.0
+version: 1.2.1
 description: "Tiny Url plugin takes a long url and uses the TinyURL API to return a shortened version."
 author:
   name: Sergey Romanenko
@@ -8,6 +8,3 @@ author:
 homepage: https://github.com/flextype-plugins/tiny-url
 bugs: https://github.com/flextype-plugins/tiny-url/issues
 license: MIT
-
-# Plugin settings
-enabled: true
