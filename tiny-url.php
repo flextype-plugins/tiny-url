@@ -20,7 +20,7 @@ use Flextype\Component\Event\Event;
 // Shortcode: [tinyurl url="http://flextype.org"]
 //
 Event::addListener('onShortcodesInitialized', function () {
-    Content::shortcode()->addHandler('tinyurl', function(ShortcodeInterface $s) {
+    Entries::shortcode()->addHandler('tinyurl', function(ShortcodeInterface $s) {
         return tinyurl($s->getParameter('url'));
     });
 });
