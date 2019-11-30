@@ -1,5 +1,6 @@
 name: Tiny Url
-version: 1.4.0
+version: 1.5.0
+icon: fas fa-link
 description: Tiny Url plugin takes a long url and uses the TinyURL API to return a
   shortened version.
 author:
